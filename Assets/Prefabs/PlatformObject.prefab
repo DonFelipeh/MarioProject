@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1931977726208488}
+  m_IsPrefabAsset: 1
+--- !u!1 &1931977726208488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4593101032860240}
+  - component: {fileID: 114619652151889622}
+  m_Layer: 8
+  m_Name: PlatformObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4593101032860240
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1931977726208488}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.23281617, y: 0.051737353, z: -0.002319336}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114619652151889622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1931977726208488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e0087e303c7f5945add86a201638760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 5
+  y: 2
+  platformTile: {fileID: 1541504363853292, guid: eb422a9178bbe1c4089c9dd034289e9a,
+    type: 2}
+  top:
+  - {fileID: 1586968114206326, guid: cdcefdab2d245744f8c1ce0b6f256ff9, type: 2}
+  - {fileID: 1274705283727910, guid: 3d22ddfb06e2004428e8920bc8978abe, type: 2}
+  - {fileID: 1183173805913458, guid: d3d949b2fd9d5d74d983f3d1b92a520c, type: 2}
+  middle:
+  - {fileID: 1852092431152236, guid: 010b7c77ec050a84faae0b4660fab545, type: 2}
+  - {fileID: 1622547431075924, guid: 85387ffb53bcf274d9c70cc5ed403270, type: 2}
+  - {fileID: 1080770785431798, guid: 8693310ee03c23b4eaa47d4ebaec5258, type: 2}
+  bottom:
+  - {fileID: 1950406980671754, guid: d6352a7cd844ac548bc57a62584dba57, type: 2}
+  - {fileID: 1483152738394074, guid: 3462f7b0353ca524cb2e9e9526819840, type: 2}
+  - {fileID: 1696416948008912, guid: c92c1a575c6cce84b8745d62a3c1dd8a, type: 2}
+  width: 1
+  height: 1
+  scalingFactor: 1
+  instantiatedTiles: []
